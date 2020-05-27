@@ -1,0 +1,61 @@
+﻿@model Registry.Models.charge
+
+@{
+    ViewBag.Title = "NewCharge";
+    Layout = "~/Views/Shared/_FileLayout.cshtml";
+}
+
+<h2>NewCharge</h2>
+
+@using (Html.BeginForm()) 
+{
+    @Html.AntiForgeryToken()
+    
+    <div class="form-horizontal">
+        <h4>charge</h4>
+        <hr />
+        @Html.ValidationSummary(true)
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.number, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.number)
+                @Html.ValidationMessageFor(model => model.number)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.destination, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.destination)
+                @Html.ValidationMessageFor(model => model.destination)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.page, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.page)
+                @Html.ValidationMessageFor(model => model.page)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.ChargedBy, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.ChargedBy)
+                @Html.ValidationMessageFor(model => model.ChargedBy)
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Create" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>

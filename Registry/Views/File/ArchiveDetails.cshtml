@@ -1,0 +1,35 @@
+﻿@model Registry.Models.Archive
+
+@{
+    ViewBag.Title = "ArchiveDetails";
+    Layout = "~/Views/Shared/_FileLayout.cshtml";
+}
+
+<h2>ArchiveDetails</h2>
+
+<div>
+    <h4>Archive</h4>
+	<hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.fileNumber)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.fileNumber)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.cabinet)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.cabinet)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

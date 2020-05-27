@@ -1,0 +1,44 @@
+﻿@model Registry.Models.Archive
+
+@{
+    ViewBag.Title = "ArchiveFile";
+    Layout = "~/Views/Shared/_FileLayout.cshtml";
+}
+
+<div class="card shadow mb-4">
+    <div class="card-header py-3">
+        <h5 class="m-0 font-weight-bold text-primary">Archive file</h5>
+    </div>
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+            <div class="form-horizontal">
+                @Html.ValidationSummary(true)
+
+                <div class="form-group">
+                    <label class="control-label col-md-2" for="title">File number</label>
+                    <div class="col-md-10">
+                        <input class="form-control text-box single-line" required="required" id="fileNumber" name="fileNumber" type="text" value="" />
+                        @Html.ValidationMessageFor(model => model.fileNumber)
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="control-label col-md-2" for="title">Cabinet</label>
+                    <div class="col-md-10">
+                        <input class="form-control text-box single-line" required="required" id="cabinet" name="cabinet" type="text" value="" />
+                        @Html.ValidationMessageFor(model => model.cabinet)
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="col-md-offset-2 col-md-10">
+                        <input type="submit" value="Create" class="btn btn-primary btn-user btn-block" />
+                    </div>
+                </div>
+            </div>
+       
+    }
+</div>
+
+   

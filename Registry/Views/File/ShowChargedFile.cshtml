@@ -1,0 +1,74 @@
+﻿@model IEnumerable<Registry.Models.charge>
+
+@{
+    ViewBag.Title = "ShowChargedFile";
+    Layout = "~/Views/Shared/_FileLayout.cshtml";
+}
+
+<div class="card shadow mb-4">
+    <div class="card-header py-3">
+        <h5 class="m-0 font-weight-bold text-primary">Charged files</h5>
+    </div>
+    <div class="card-header">
+    </div>
+    <div class="card-body">
+        <div class="table-responsive">
+            <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                <thead>
+                    <tr>
+                        <th>
+                            #
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.number)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.destination)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.page)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.date)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.ChargedBy)
+                        </th>
+                        <th></th>
+                    </tr>
+                </thead>
+                @{
+                    var counter = 1;
+                }
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            @(counter++)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.number)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.destination)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.page)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.date)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.ChargedBy)
+                        </td>
+                        <td>
+                            @Html.ActionLink("Details", "ChargedFileindex", new { id = item.number }) |
+                            @Html.ActionLink("Delete", "DeleteChargedFile", new { id = item.id })
+                        </td>
+                    </tr>
+                }
+
+            </table>
+            </div>
+        </div>
+    </div>

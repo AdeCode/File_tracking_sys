@@ -1,0 +1,91 @@
+﻿@model Registry.Models.user
+
+@{
+    ViewBag.Title = "CreateUser";
+    Layout = "~/Views/Shared/_FileLayout.cshtml";
+}
+<div class="card shadow mb-4">
+    <div class="card-header">
+        <h5 class="m-0 font-weight-bold text-primary">Create a new user</h5>
+    </div>
+    <div class="card-body">
+
+        @using (Html.BeginForm("CreateUser", "User", FormMethod.Post, new { onsubmit = "return SUbmitForm(this)" }))
+        {
+            @Html.AntiForgeryToken()
+
+            <div class="form-horizontal">
+                @Html.ValidationSummary(true)
+
+                <div class="form-group">
+                    <label class="control-label col-md-2" for="userId">User name</label>
+                    <div class="col-md-10">
+                        <input class="form-control text-box single-line" required="required" id="userId" name="userId" type="text" value="" />
+                        @Html.ValidationMessageFor(model => model.userId)
+                    </div>
+                </div>
+                <div class="row hidden">
+                    <label class="col-md-2"></label>
+                    <div class="col-sm-10">
+                        <p id="status" />
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="control-label col-md-2" for="userId">last name</label>
+                    <div class="col-md-10">
+                        <input class="form-control text-box single-line" required="required" id="lastName" name="lastName" type="text" value="" />
+                        @Html.ValidationMessageFor(model => model.lastName)
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="control-label col-md-2" for="userId">First name</label>
+                    <div class="col-md-10">
+                        <input class="form-control text-box single-line" required="required" id="firstName" name="firstName" type="text" value="" />
+                        @Html.ValidationMessageFor(model => model.firstName)
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="control-label col-md-2" for="userId">Middle name</label>
+                    <div class="col-md-10">
+                        <input class="form-control text-box single-line" id="middleName" name="middleName" type="text" value="" />
+                        @Html.ValidationMessageFor(model => model.middleName)
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="control-label col-md-2" for="userId">Phone number</label>
+                    <div class="col-md-10">
+                        <input class="form-control text-box single-line" required="required" id="phoneNumber" name="phoneNumber" type="number" value="" />
+                        @Html.ValidationMessageFor(model => model.phoneNumber)
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.password, new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        <input class="form-control text-box single-line" required="required" id="password" name="password" type="password" value="" />
+                        @Html.ValidationMessageFor(model => model.password)
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="col-md-offset-2 col-md-10">
+                        <input type="submit" value="Create" class="btn btn-primary btn-user btn-block" />
+                    </div>
+                </div>
+            </div>
+        }
+
+        <div>
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    </div>
+
+
+
+</div>
+   
+

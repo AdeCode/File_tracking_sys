@@ -1,0 +1,57 @@
+﻿@model IEnumerable<Registry.Models.file>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_FileLayout.cshtml";
+}
+<div class="card shadow mb-4">
+    <div class="card-header py-3">
+        <h6 class="m-0 font-weight-bold text-primary">View files</h6>
+    </div>
+    <div class="card-body">
+        <div class="table-responsive">
+                <p>
+                    <a class="btn btn-primary" href="/File/Create">
+                        <span class="text">Create New File</span>
+                    </a>
+                </p>
+            <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                <thead>
+                    <tr>
+                        <th>
+                            File Title
+                        </th>
+                        <th>
+                            File Number
+                        </th>
+                        <th>
+                            File Status
+                        </th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.title)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.number)
+                            </td>
+                            <td></td>
+                            <td>
+                                <a href="@Url.Action("Edit", "File", new { id=item.id })" class="btn btn-warning my-2 my-sm-0">Edit</a>
+                                <a href="@Url.Action("Details", "File", new { id = item.id })" class="btn btn-info my-2 my-sm-0">Details</a>
+                                <a href="@Url.Action("Delete", "File", new { id = item.id })" class="btn btn-danger my-2 my-sm-0">Delete</a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+              
+
+            </table>
+            </div>
+        </div>
+        </div>

@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="RegisterModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Archive">
+    <Key>
+      <PropertyRef Name="fileNumber" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="fileNumber" Type="varchar" MaxLength="15" Nullable="false" />
+    <Property Name="cabinet" Type="varchar" MaxLength="10" Nullable="false" />
+  </EntityType>
+  <EntityType Name="charge">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="number" Type="varchar" MaxLength="15" Nullable="false" />
+    <Property Name="destination" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="page" Type="int" Nullable="false" />
+    <Property Name="date" Type="date" Nullable="false" />
+    <Property Name="ChargedBy" Type="varchar" MaxLength="20" />
+  </EntityType>
+  <EntityType Name="file">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="title" Type="varchar" MaxLength="15" Nullable="false" />
+    <Property Name="number" Type="varchar" MaxLength="15" Nullable="false" />
+  </EntityType>
+  <EntityType Name="user">
+    <Key>
+      <PropertyRef Name="userId" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="userId" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="lastName" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="firstName" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="middleName" Type="varchar" MaxLength="20" />
+    <Property Name="phoneNumber" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="password" Type="varchar" MaxLength="20" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="RegisterModelStoreContainer">
+    <EntitySet Name="Archive" EntityType="Self.Archive" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="charge" EntityType="Self.charge" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="file" EntityType="Self.file" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="user" EntityType="Self.user" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

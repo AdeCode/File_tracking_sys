@@ -1,0 +1,28 @@
+button .btn{
+    background-color: #f6a03e !important;
+}
+
+.searchButton{
+    background-color: #f6a03e !important;
+    border: solid  #f6a03e 2px;
+}
+.searchButton :hover{
+    border: solid  #f6a03e 2px;
+
+}
+
+.btn-user {
+    background-color: #f7990e;
+}
+.btn-user:hover{
+    background-color: linear-gradient(180deg,#4e73df 10%,#224abe 100%);
+}
+
+div.hidden{
+    display: none;
+}
+
+.dataTables_wrapper{
+    border: 2px;
+}
+

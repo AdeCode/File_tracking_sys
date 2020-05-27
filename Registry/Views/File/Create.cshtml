@@ -1,0 +1,47 @@
+﻿@model Registry.Models.file
+
+@{
+    ViewBag.Title = "Create";
+    Layout = "~/Views/Shared/_FileLayout.cshtml";
+}
+<div class="card shadow mb-4">
+    <div class="card-header">
+        <h5 class="m-0 font-weight-bold text-primary">Create a new file</h5>
+    </div>
+    <div class="card-body">
+        @using (Html.BeginForm())
+        {
+            @Html.AntiForgeryToken()
+
+            <div class="form-horizontal">
+                <hr />
+                @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                <div class="form-group">
+                    <label class="control-label col-md-2" for="title">File title</label>
+                    <div class="col-md-10">
+                        <input class="form-control text-box single-line" required="required" id="title" name="title" type="text" value="" />
+                        @Html.ValidationMessageFor(model => model.title, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="control-label col-md-2" for="title">File number</label>
+                    <div class="col-md-10">
+                        <input class="form-control text-box single-line" required="required" id="number" name="number" type="text" value="" />
+                        @Html.ValidationMessageFor(model => model.number, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="col-md-offset-2 col-md-10">
+                        <input type="submit" value="Create" class="btn btn-primary btn-user btn-block" />
+                    </div>
+                </div>
+            </div>
+        }
+
+        <div>
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    </div>
+</div>

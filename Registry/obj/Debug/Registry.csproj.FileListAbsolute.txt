@@ -1,0 +1,220 @@
+c:\users\user\documents\visual studio 2013\Projects\Registry\Registry\bin\Registry.dll.config
+c:\users\user\documents\visual studio 2013\Projects\Registry\Registry\bin\Registry.dll
+c:\users\user\documents\visual studio 2013\Projects\Registry\Registry\bin\Registry.pdb
+c:\users\user\documents\visual studio 2013\Projects\Registry\Registry\bin\Antlr3.Runtime.dll
+c:\users\user\documents\visual studio 2013\Projects\Registry\Registry\bin\EntityFramework.dll
+c:\users\user\documents\visual studio 2013\Projects\Registry\Registry\bin\EntityFramework.SqlServer.dll
+c:\users\user\documents\visual studio 2013\Projects\Registry\Registry\bin\Microsoft.AspNet.Identity.Core.dll
+c:\users\user\documents\visual studio 2013\Projects\Registry\Registry\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+c:\users\user\documents\visual studio 2013\Projects\Registry\Registry\bin\Microsoft.AspNet.Identity.Owin.dll
+c:\users\user\documents\visual studio 2013\Projects\Registry\Registry\bin\Microsoft.Owin.dll
+c:\users\user\documents\visual studio 2013\Projects\Registry\Registry\bin\Microsoft.Owin.Host.SystemWeb.dll
+c:\users\user\documents\visual studio 2013\Projects\Registry\Registry\bin\Microsoft.Owin.Security.Cookies.dll
+c:\users\user\documents\visual studio 2013\Projects\Registry\Registry\bin\Microsoft.Owin.Security.dll
+c:\users\user\documents\visual studio 2013\Projects\Registry\Registry\bin\Microsoft.Owin.Security.Facebook.dll
+c:\users\user\documents\visual studio 2013\Projects\Registry\Registry\bin\Microsoft.Owin.Security.Google.dll
+c:\users\user\documents\visual studio 2013\Projects\Registry\Registry\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+c:\users\user\documents\visual studio 2013\Projects\Registry\Registry\bin\Microsoft.Owin.Security.OAuth.dll
+c:\users\user\documents\visual studio 2013\Projects\Registry\Registry\bin\Microsoft.Owin.Security.Twitter.dll
+c:\users\user\documents\visual studio 2013\Projects\Registry\Registry\bin\Microsoft.Web.Infrastructure.dll
+c:\users\user\documents\visual studio 2013\Projects\Registry\Registry\bin\Newtonsoft.Json.dll
+c:\users\user\documents\visual studio 2013\Projects\Registry\Registry\bin\Owin.dll
+c:\users\user\documents\visual studio 2013\Projects\Registry\Registry\bin\System.Web.Helpers.dll
+c:\users\user\documents\visual studio 2013\Projects\Registry\Registry\bin\System.Web.Mvc.dll
+c:\users\user\documents\visual studio 2013\Projects\Registry\Registry\bin\System.Web.Optimization.dll
+c:\users\user\documents\visual studio 2013\Projects\Registry\Registry\bin\System.Web.Razor.dll
+c:\users\user\documents\visual studio 2013\Projects\Registry\Registry\bin\System.Web.WebPages.Deployment.dll
+c:\users\user\documents\visual studio 2013\Projects\Registry\Registry\bin\System.Web.WebPages.dll
+c:\users\user\documents\visual studio 2013\Projects\Registry\Registry\bin\System.Web.WebPages.Razor.dll
+c:\users\user\documents\visual studio 2013\Projects\Registry\Registry\bin\WebGrease.dll
+c:\users\user\documents\visual studio 2013\Projects\Registry\Registry\bin\System.Web.Helpers.xml
+c:\users\user\documents\visual studio 2013\Projects\Registry\Registry\bin\System.Web.Mvc.xml
+c:\users\user\documents\visual studio 2013\Projects\Registry\Registry\bin\System.Web.Optimization.xml
+c:\users\user\documents\visual studio 2013\Projects\Registry\Registry\bin\System.Web.Razor.xml
+c:\users\user\documents\visual studio 2013\Projects\Registry\Registry\bin\System.Web.WebPages.xml
+c:\users\user\documents\visual studio 2013\Projects\Registry\Registry\bin\System.Web.WebPages.Deployment.xml
+c:\users\user\documents\visual studio 2013\Projects\Registry\Registry\bin\System.Web.WebPages.Razor.xml
+c:\users\user\documents\visual studio 2013\Projects\Registry\Registry\bin\Newtonsoft.Json.xml
+c:\users\user\documents\visual studio 2013\Projects\Registry\Registry\bin\Antlr3.Runtime.pdb
+c:\users\user\documents\visual studio 2013\Projects\Registry\Registry\bin\EntityFramework.xml
+c:\users\user\documents\visual studio 2013\Projects\Registry\Registry\bin\EntityFramework.SqlServer.xml
+c:\users\user\documents\visual studio 2013\Projects\Registry\Registry\bin\Microsoft.AspNet.Identity.Core.xml
+c:\users\user\documents\visual studio 2013\Projects\Registry\Registry\bin\Microsoft.AspNet.Identity.Owin.xml
+c:\users\user\documents\visual studio 2013\Projects\Registry\Registry\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+c:\users\user\documents\visual studio 2013\Projects\Registry\Registry\bin\Microsoft.Owin.xml
+c:\users\user\documents\visual studio 2013\Projects\Registry\Registry\bin\Microsoft.Owin.Host.SystemWeb.xml
+c:\users\user\documents\visual studio 2013\Projects\Registry\Registry\bin\Microsoft.Owin.Security.xml
+c:\users\user\documents\visual studio 2013\Projects\Registry\Registry\bin\Microsoft.Owin.Security.Facebook.xml
+c:\users\user\documents\visual studio 2013\Projects\Registry\Registry\bin\Microsoft.Owin.Security.Cookies.xml
+c:\users\user\documents\visual studio 2013\Projects\Registry\Registry\bin\Microsoft.Owin.Security.OAuth.xml
+c:\users\user\documents\visual studio 2013\Projects\Registry\Registry\bin\Microsoft.Owin.Security.Google.xml
+c:\users\user\documents\visual studio 2013\Projects\Registry\Registry\bin\Microsoft.Owin.Security.Twitter.xml
+c:\users\user\documents\visual studio 2013\Projects\Registry\Registry\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+c:\users\user\documents\visual studio 2013\Projects\Registry\Registry\obj\Debug\Registry.csprojResolveAssemblyReference.cache
+c:\users\user\documents\visual studio 2013\Projects\Registry\Registry\obj\Debug\Registry.dll
+c:\users\user\documents\visual studio 2013\Projects\Registry\Registry\obj\Debug\Registry.pdb
+F:\Registry\Registry\bin\Registry.dll.config
+F:\Registry\Registry\bin\Registry.dll
+F:\Registry\Registry\bin\Registry.pdb
+F:\Registry\Registry\bin\Antlr3.Runtime.dll
+F:\Registry\Registry\bin\EntityFramework.dll
+F:\Registry\Registry\bin\EntityFramework.SqlServer.dll
+F:\Registry\Registry\bin\Microsoft.AspNet.Identity.Core.dll
+F:\Registry\Registry\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+F:\Registry\Registry\bin\Microsoft.AspNet.Identity.Owin.dll
+F:\Registry\Registry\bin\Microsoft.Owin.dll
+F:\Registry\Registry\bin\Microsoft.Owin.Host.SystemWeb.dll
+F:\Registry\Registry\bin\Microsoft.Owin.Security.Cookies.dll
+F:\Registry\Registry\bin\Microsoft.Owin.Security.dll
+F:\Registry\Registry\bin\Microsoft.Owin.Security.Facebook.dll
+F:\Registry\Registry\bin\Microsoft.Owin.Security.Google.dll
+F:\Registry\Registry\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+F:\Registry\Registry\bin\Microsoft.Owin.Security.OAuth.dll
+F:\Registry\Registry\bin\Microsoft.Owin.Security.Twitter.dll
+F:\Registry\Registry\bin\Microsoft.Web.Infrastructure.dll
+F:\Registry\Registry\bin\Newtonsoft.Json.dll
+F:\Registry\Registry\bin\Owin.dll
+F:\Registry\Registry\bin\System.Web.Helpers.dll
+F:\Registry\Registry\bin\System.Web.Mvc.dll
+F:\Registry\Registry\bin\System.Web.Optimization.dll
+F:\Registry\Registry\bin\System.Web.Razor.dll
+F:\Registry\Registry\bin\System.Web.WebPages.Deployment.dll
+F:\Registry\Registry\bin\System.Web.WebPages.dll
+F:\Registry\Registry\bin\System.Web.WebPages.Razor.dll
+F:\Registry\Registry\bin\WebGrease.dll
+F:\Registry\Registry\bin\System.Web.Helpers.xml
+F:\Registry\Registry\bin\System.Web.Mvc.xml
+F:\Registry\Registry\bin\System.Web.Optimization.xml
+F:\Registry\Registry\bin\System.Web.Razor.xml
+F:\Registry\Registry\bin\System.Web.WebPages.xml
+F:\Registry\Registry\bin\System.Web.WebPages.Deployment.xml
+F:\Registry\Registry\bin\System.Web.WebPages.Razor.xml
+F:\Registry\Registry\bin\Newtonsoft.Json.xml
+F:\Registry\Registry\bin\Antlr3.Runtime.pdb
+F:\Registry\Registry\bin\EntityFramework.xml
+F:\Registry\Registry\bin\EntityFramework.SqlServer.xml
+F:\Registry\Registry\bin\Microsoft.AspNet.Identity.Core.xml
+F:\Registry\Registry\bin\Microsoft.AspNet.Identity.Owin.xml
+F:\Registry\Registry\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+F:\Registry\Registry\bin\Microsoft.Owin.xml
+F:\Registry\Registry\bin\Microsoft.Owin.Host.SystemWeb.xml
+F:\Registry\Registry\bin\Microsoft.Owin.Security.xml
+F:\Registry\Registry\bin\Microsoft.Owin.Security.Facebook.xml
+F:\Registry\Registry\bin\Microsoft.Owin.Security.Cookies.xml
+F:\Registry\Registry\bin\Microsoft.Owin.Security.OAuth.xml
+F:\Registry\Registry\bin\Microsoft.Owin.Security.Google.xml
+F:\Registry\Registry\bin\Microsoft.Owin.Security.Twitter.xml
+F:\Registry\Registry\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+F:\Registry\Registry\obj\Debug\Registry.csprojResolveAssemblyReference.cache
+F:\Registry\Registry\obj\Debug\Registry.dll
+F:\Registry\Registry\obj\Debug\Registry.pdb
+C:\Users\Oyebode\Documents\Visual Studio 2013\Projects\Registry\Registry\bin\Registry.dll.config
+C:\Users\Oyebode\Documents\Visual Studio 2013\Projects\Registry\Registry\bin\Registry.dll
+C:\Users\Oyebode\Documents\Visual Studio 2013\Projects\Registry\Registry\bin\Registry.pdb
+C:\Users\Oyebode\Documents\Visual Studio 2013\Projects\Registry\Registry\bin\Antlr3.Runtime.dll
+C:\Users\Oyebode\Documents\Visual Studio 2013\Projects\Registry\Registry\bin\EntityFramework.dll
+C:\Users\Oyebode\Documents\Visual Studio 2013\Projects\Registry\Registry\bin\EntityFramework.SqlServer.dll
+C:\Users\Oyebode\Documents\Visual Studio 2013\Projects\Registry\Registry\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Oyebode\Documents\Visual Studio 2013\Projects\Registry\Registry\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Oyebode\Documents\Visual Studio 2013\Projects\Registry\Registry\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Oyebode\Documents\Visual Studio 2013\Projects\Registry\Registry\bin\Microsoft.Owin.dll
+C:\Users\Oyebode\Documents\Visual Studio 2013\Projects\Registry\Registry\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Oyebode\Documents\Visual Studio 2013\Projects\Registry\Registry\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Oyebode\Documents\Visual Studio 2013\Projects\Registry\Registry\bin\Microsoft.Owin.Security.dll
+C:\Users\Oyebode\Documents\Visual Studio 2013\Projects\Registry\Registry\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Oyebode\Documents\Visual Studio 2013\Projects\Registry\Registry\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Oyebode\Documents\Visual Studio 2013\Projects\Registry\Registry\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Oyebode\Documents\Visual Studio 2013\Projects\Registry\Registry\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Oyebode\Documents\Visual Studio 2013\Projects\Registry\Registry\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Oyebode\Documents\Visual Studio 2013\Projects\Registry\Registry\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Oyebode\Documents\Visual Studio 2013\Projects\Registry\Registry\bin\Newtonsoft.Json.dll
+C:\Users\Oyebode\Documents\Visual Studio 2013\Projects\Registry\Registry\bin\Owin.dll
+C:\Users\Oyebode\Documents\Visual Studio 2013\Projects\Registry\Registry\bin\System.Web.Helpers.dll
+C:\Users\Oyebode\Documents\Visual Studio 2013\Projects\Registry\Registry\bin\System.Web.Mvc.dll
+C:\Users\Oyebode\Documents\Visual Studio 2013\Projects\Registry\Registry\bin\System.Web.Optimization.dll
+C:\Users\Oyebode\Documents\Visual Studio 2013\Projects\Registry\Registry\bin\System.Web.Razor.dll
+C:\Users\Oyebode\Documents\Visual Studio 2013\Projects\Registry\Registry\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Oyebode\Documents\Visual Studio 2013\Projects\Registry\Registry\bin\System.Web.WebPages.dll
+C:\Users\Oyebode\Documents\Visual Studio 2013\Projects\Registry\Registry\bin\System.Web.WebPages.Razor.dll
+C:\Users\Oyebode\Documents\Visual Studio 2013\Projects\Registry\Registry\bin\WebGrease.dll
+C:\Users\Oyebode\Documents\Visual Studio 2013\Projects\Registry\Registry\bin\System.Web.Helpers.xml
+C:\Users\Oyebode\Documents\Visual Studio 2013\Projects\Registry\Registry\bin\System.Web.Mvc.xml
+C:\Users\Oyebode\Documents\Visual Studio 2013\Projects\Registry\Registry\bin\System.Web.Optimization.xml
+C:\Users\Oyebode\Documents\Visual Studio 2013\Projects\Registry\Registry\bin\System.Web.Razor.xml
+C:\Users\Oyebode\Documents\Visual Studio 2013\Projects\Registry\Registry\bin\System.Web.WebPages.xml
+C:\Users\Oyebode\Documents\Visual Studio 2013\Projects\Registry\Registry\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Oyebode\Documents\Visual Studio 2013\Projects\Registry\Registry\bin\System.Web.WebPages.Razor.xml
+C:\Users\Oyebode\Documents\Visual Studio 2013\Projects\Registry\Registry\bin\Newtonsoft.Json.xml
+C:\Users\Oyebode\Documents\Visual Studio 2013\Projects\Registry\Registry\bin\Antlr3.Runtime.pdb
+C:\Users\Oyebode\Documents\Visual Studio 2013\Projects\Registry\Registry\bin\EntityFramework.xml
+C:\Users\Oyebode\Documents\Visual Studio 2013\Projects\Registry\Registry\bin\EntityFramework.SqlServer.xml
+C:\Users\Oyebode\Documents\Visual Studio 2013\Projects\Registry\Registry\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Oyebode\Documents\Visual Studio 2013\Projects\Registry\Registry\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Oyebode\Documents\Visual Studio 2013\Projects\Registry\Registry\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Oyebode\Documents\Visual Studio 2013\Projects\Registry\Registry\bin\Microsoft.Owin.xml
+C:\Users\Oyebode\Documents\Visual Studio 2013\Projects\Registry\Registry\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Oyebode\Documents\Visual Studio 2013\Projects\Registry\Registry\bin\Microsoft.Owin.Security.xml
+C:\Users\Oyebode\Documents\Visual Studio 2013\Projects\Registry\Registry\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Oyebode\Documents\Visual Studio 2013\Projects\Registry\Registry\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Oyebode\Documents\Visual Studio 2013\Projects\Registry\Registry\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Oyebode\Documents\Visual Studio 2013\Projects\Registry\Registry\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Oyebode\Documents\Visual Studio 2013\Projects\Registry\Registry\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Oyebode\Documents\Visual Studio 2013\Projects\Registry\Registry\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Oyebode\Documents\Visual Studio 2013\Projects\Registry\Registry\obj\Debug\Registry.csprojResolveAssemblyReference.cache
+C:\Users\Oyebode\Documents\Visual Studio 2013\Projects\Registry\Registry\obj\Debug\Registry.dll
+C:\Users\Oyebode\Documents\Visual Studio 2013\Projects\Registry\Registry\obj\Debug\Registry.pdb
+C:\Users\USER\Desktop\Projects\Registry\Registry\bin\Registry.dll.config
+C:\Users\USER\Desktop\Projects\Registry\Registry\bin\Registry.dll
+C:\Users\USER\Desktop\Projects\Registry\Registry\bin\Registry.pdb
+C:\Users\USER\Desktop\Projects\Registry\Registry\bin\Antlr3.Runtime.dll
+C:\Users\USER\Desktop\Projects\Registry\Registry\bin\EntityFramework.dll
+C:\Users\USER\Desktop\Projects\Registry\Registry\bin\EntityFramework.SqlServer.dll
+C:\Users\USER\Desktop\Projects\Registry\Registry\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\USER\Desktop\Projects\Registry\Registry\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\USER\Desktop\Projects\Registry\Registry\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\USER\Desktop\Projects\Registry\Registry\bin\Microsoft.Owin.dll
+C:\Users\USER\Desktop\Projects\Registry\Registry\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\USER\Desktop\Projects\Registry\Registry\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\USER\Desktop\Projects\Registry\Registry\bin\Microsoft.Owin.Security.dll
+C:\Users\USER\Desktop\Projects\Registry\Registry\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\USER\Desktop\Projects\Registry\Registry\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\USER\Desktop\Projects\Registry\Registry\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\USER\Desktop\Projects\Registry\Registry\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\USER\Desktop\Projects\Registry\Registry\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\USER\Desktop\Projects\Registry\Registry\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\USER\Desktop\Projects\Registry\Registry\bin\Newtonsoft.Json.dll
+C:\Users\USER\Desktop\Projects\Registry\Registry\bin\Owin.dll
+C:\Users\USER\Desktop\Projects\Registry\Registry\bin\System.Web.Helpers.dll
+C:\Users\USER\Desktop\Projects\Registry\Registry\bin\System.Web.Mvc.dll
+C:\Users\USER\Desktop\Projects\Registry\Registry\bin\System.Web.Optimization.dll
+C:\Users\USER\Desktop\Projects\Registry\Registry\bin\System.Web.Razor.dll
+C:\Users\USER\Desktop\Projects\Registry\Registry\bin\System.Web.WebPages.Deployment.dll
+C:\Users\USER\Desktop\Projects\Registry\Registry\bin\System.Web.WebPages.dll
+C:\Users\USER\Desktop\Projects\Registry\Registry\bin\System.Web.WebPages.Razor.dll
+C:\Users\USER\Desktop\Projects\Registry\Registry\bin\WebGrease.dll
+C:\Users\USER\Desktop\Projects\Registry\Registry\bin\System.Web.Helpers.xml
+C:\Users\USER\Desktop\Projects\Registry\Registry\bin\System.Web.Mvc.xml
+C:\Users\USER\Desktop\Projects\Registry\Registry\bin\System.Web.Optimization.xml
+C:\Users\USER\Desktop\Projects\Registry\Registry\bin\System.Web.Razor.xml
+C:\Users\USER\Desktop\Projects\Registry\Registry\bin\System.Web.WebPages.xml
+C:\Users\USER\Desktop\Projects\Registry\Registry\bin\System.Web.WebPages.Deployment.xml
+C:\Users\USER\Desktop\Projects\Registry\Registry\bin\System.Web.WebPages.Razor.xml
+C:\Users\USER\Desktop\Projects\Registry\Registry\bin\Newtonsoft.Json.xml
+C:\Users\USER\Desktop\Projects\Registry\Registry\bin\Antlr3.Runtime.pdb
+C:\Users\USER\Desktop\Projects\Registry\Registry\bin\EntityFramework.xml
+C:\Users\USER\Desktop\Projects\Registry\Registry\bin\EntityFramework.SqlServer.xml
+C:\Users\USER\Desktop\Projects\Registry\Registry\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\USER\Desktop\Projects\Registry\Registry\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\USER\Desktop\Projects\Registry\Registry\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\USER\Desktop\Projects\Registry\Registry\bin\Microsoft.Owin.xml
+C:\Users\USER\Desktop\Projects\Registry\Registry\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\USER\Desktop\Projects\Registry\Registry\bin\Microsoft.Owin.Security.xml
+C:\Users\USER\Desktop\Projects\Registry\Registry\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\USER\Desktop\Projects\Registry\Registry\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\USER\Desktop\Projects\Registry\Registry\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\USER\Desktop\Projects\Registry\Registry\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\USER\Desktop\Projects\Registry\Registry\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\USER\Desktop\Projects\Registry\Registry\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\USER\Desktop\Projects\Registry\Registry\obj\Debug\Registry.csprojResolveAssemblyReference.cache
+C:\Users\USER\Desktop\Projects\Registry\Registry\obj\Debug\Registry.dll
+C:\Users\USER\Desktop\Projects\Registry\Registry\obj\Debug\Registry.pdb

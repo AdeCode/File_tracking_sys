@@ -1,0 +1,50 @@
+﻿@model IEnumerable<Registry.Models.Archive>
+
+@{
+    ViewBag.Title = "ShowArchivedFiles";
+    Layout = "~/Views/Shared/_FileLayout.cshtml";
+}
+<div class="card shadow mb-4">
+    <div class="card-header py-3">
+        <h6 class="m-0 font-weight-bold text-primary">Archived files</h6>
+    </div>
+    <div class="card-body">
+        <div class="table-responsive">
+            <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                <thead>
+                    <tr>
+                        <th>
+                            File Number
+                        </th>
+                       
+                        <th>
+                            @Html.DisplayNameFor(model => model.cabinet)
+                        </th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.fileNumber)
+                            </td>
+                            
+                            <td>
+                                @Html.DisplayFor(modelItem => item.cabinet)
+                            </td>
+                            <td>
+                                @Html.ActionLink("Edit", "EditArchivedFile", new { id = item.id }) |
+                                @Html.ActionLink("Details", "ArchiveDetails", new { id = item.id }) 
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+
+        </div>
+    </div>
+
+</div>
+    

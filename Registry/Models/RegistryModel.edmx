@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="RegisterModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Archive">
+          <Key>
+            <PropertyRef Name="fileNumber" />
+          </Key>
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="fileNumber" Type="varchar" MaxLength="15" Nullable="false" />
+          <Property Name="cabinet" Type="varchar" MaxLength="10" Nullable="false" />
+        </EntityType>
+        <EntityType Name="charge">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="number" Type="varchar" MaxLength="15" Nullable="false" />
+          <Property Name="destination" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="page" Type="int" Nullable="false" />
+          <Property Name="date" Type="date" Nullable="false" />
+          <Property Name="ChargedBy" Type="varchar" MaxLength="20" />
+        </EntityType>
+        <EntityType Name="file">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="title" Type="varchar" MaxLength="15" Nullable="false" />
+          <Property Name="number" Type="varchar" MaxLength="15" Nullable="false" />
+        </EntityType>
+        <EntityType Name="user">
+          <Key>
+            <PropertyRef Name="userId" />
+          </Key>
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="userId" Type="varchar" MaxLength="20" Nullable="false" />
+          <Property Name="lastName" Type="varchar" MaxLength="20" Nullable="false" />
+          <Property Name="firstName" Type="varchar" MaxLength="20" Nullable="false" />
+          <Property Name="middleName" Type="varchar" MaxLength="20" />
+          <Property Name="phoneNumber" Type="varchar" MaxLength="20" Nullable="false" />
+          <Property Name="password" Type="varchar" MaxLength="20" Nullable="false" />
+        </EntityType>
+        <EntityContainer Name="RegisterModelStoreContainer">
+          <EntitySet Name="Archive" EntityType="Self.Archive" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="charge" EntityType="Self.charge" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="file" EntityType="Self.file" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="user" EntityType="Self.user" Schema="dbo" store:Type="Tables" />
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="RegisterModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="Archive">
+          <Key>
+            <PropertyRef Name="fileNumber" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="fileNumber" Type="String" MaxLength="15" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="cabinet" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+        </EntityType>
+        <EntityType Name="charge">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="number" Type="String" MaxLength="15" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="destination" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="page" Type="Int32" Nullable="false" />
+          <Property Name="date" Type="DateTime" Nullable="false" Precision="0" />
+          <Property Name="ChargedBy" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="file">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="title" Type="String" MaxLength="15" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="number" Type="String" MaxLength="15" FixedLength="false" Unicode="false" Nullable="false" />
+        </EntityType>
+        <EntityType Name="user">
+          <Key>
+            <PropertyRef Name="userId" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="userId" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="lastName" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="firstName" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="middleName" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="phoneNumber" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="password" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+        </EntityType>
+        <EntityContainer Name="RegisterEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Archives" EntityType="Self.Archive" />
+          <EntitySet Name="charges" EntityType="Self.charge" />
+          <EntitySet Name="files" EntityType="Self.file" />
+          <EntitySet Name="users" EntityType="Self.user" />
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="RegisterModelStoreContainer" CdmEntityContainer="RegisterEntities">
+          <EntitySetMapping Name="Archives">
+            <EntityTypeMapping TypeName="RegisterModel.Archive">
+              <MappingFragment StoreEntitySet="Archive">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="fileNumber" ColumnName="fileNumber" />
+                <ScalarProperty Name="cabinet" ColumnName="cabinet" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="charges">
+            <EntityTypeMapping TypeName="RegisterModel.charge">
+              <MappingFragment StoreEntitySet="charge">
+                <ScalarProperty Name="ChargedBy" ColumnName="ChargedBy" />
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="number" ColumnName="number" />
+                <ScalarProperty Name="destination" ColumnName="destination" />
+                <ScalarProperty Name="page" ColumnName="page" />
+                <ScalarProperty Name="date" ColumnName="date" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="files">
+            <EntityTypeMapping TypeName="RegisterModel.file">
+              <MappingFragment StoreEntitySet="file">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="title" ColumnName="title" />
+                <ScalarProperty Name="number" ColumnName="number" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="users">
+            <EntityTypeMapping TypeName="RegisterModel.user">
+              <MappingFragment StoreEntitySet="user">
+                <ScalarProperty Name="password" ColumnName="password" />
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="userId" ColumnName="userId" />
+                <ScalarProperty Name="lastName" ColumnName="lastName" />
+                <ScalarProperty Name="firstName" ColumnName="firstName" />
+                <ScalarProperty Name="middleName" ColumnName="middleName" />
+                <ScalarProperty Name="phoneNumber" ColumnName="phoneNumber" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>
